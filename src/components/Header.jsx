@@ -28,19 +28,19 @@ const Header = () => {
         } lg:static lg:bg-transparent lg:p-0`}
       >
         <ul className="flex flex-col items-center lg:flex-row lg:items-center lg:text-[16px] xl:text-[17px]">
-          <li className="cursor-pointer my-2 lg:my-0 lg:ml-10 hover:text-[#1634D4]">
+          <li className="cursor-pointer my-2 lg:my-0 lg:ml-10 hover:text-orange-500">
             Home
           </li>
 
-          <li className="cursor-pointer my-2 lg:my-0 lg:ml-10 hover:text-[#1634D4]">
+          <li className="cursor-pointer my-2 lg:my-0 lg:ml-10 hover:text-orange-500">
             About Us
           </li>
 
-          <li className="cursor-pointer my-2 lg:my-0 lg:ml-10 hover:text-[#1634D4]">
+          <li className="cursor-pointer my-2 lg:my-0 lg:ml-10 hover:text-orange-500">
             Pricing
           </li>
 
-          <li className="cursor-pointer my-2 lg:my-0 lg:ml-10 hover:text-[#1634D4]">
+          <li className="cursor-pointer my-2 lg:my-0 lg:ml-10 hover:text-orange-500">
             Features
           </li>
         </ul>

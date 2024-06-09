@@ -19,11 +19,11 @@ import "../components/home.css";
 
 const Home = () => {
   return (
-    <div className="mx-2 container xl:mx-auto max-w-7xl">
-      <div className=" grid md:grid-cols-2">
+    <div className="mx-2 lg:mt-10 container xl:mx-auto max-w-7xl">
+      <div className="grid md:grid-cols-2">
         <div className="">
           <div className="xl:pt-6">
-            <p className="text-[35px] lg:text-[45px] font-bold ">
+            <p className="text-[35px] xl:text-[42px] font-bold ">
               Make The Best Financial Decisions
             </p>
             <p className="text-[16px] lg:text-[18px] my-6 font-semibold text-gray-700">
@@ -45,7 +45,7 @@ const Home = () => {
             <img
               src={img}
               alt="err"
-              className="hidden md:inline xl:w-[450px] xl:mt-8"
+              className="hidden md:inline lg:w-[450px] xl:mt-8"
             />
           </div>
         </div>
@@ -56,7 +56,7 @@ const Home = () => {
           <img
             src={home_img}
             alt="img"
-            className="w-[380px] my-4 md:my-0 md:w-full"
+            className="w-[380px] my-4 md:my-0 xl:w-full"
           />
         </div>
       </div>
@@ -67,7 +67,7 @@ const Home = () => {
           <img
             src={premium}
             alt="img"
-            className="w-[400px] md:w-[1000px] lg:w-[1100px]"
+            className="w-[400px] md:w-[800px] lg:w-[1000px] xl:w-[1100px]"
             style={{
               backgroundImage: `url(${bg})`,
               backgroundSize: "cover",
@@ -76,7 +76,7 @@ const Home = () => {
             }}
           />
         </div>
-        <div className="mt-8">
+        <div className="mt-8 md:p-4 lg:p-0">
           <p className="text-orange-500 text-[19px] tracking-widest font-semibold">
             FEATURES
           </p>
@@ -128,8 +128,8 @@ const Home = () => {
       </div>
 
       {/* next part */}
-      <div className="md:flex justify-center items-center mt-8">
-        <div className="md:m-12">
+      <div className="md:flex justify-center items-center mt-8 xl:mt-0">
+        <div className="lg:m-12">
           <p className="text-orange-500 text-[19px] tracking-widest font-semibold">
             ADVANTAGES
           </p>
@@ -158,11 +158,7 @@ const Home = () => {
             backgroundSize: "620px",
           }}
         >
-          <img
-            src={premium1}
-            alt="img"
-            className="w-[400px] md:w-[1000px] lg:w-[2200px]"
-          />
+          <img src={premium1} alt="img" className="w-[400px] md:w-[2000px]" />
         </div>
       </div>
 
@@ -181,15 +177,11 @@ const Home = () => {
             backgroundSize: "620px",
           }}
         >
-          <img
-            src={premium}
-            alt="img"
-            className="w-[400px] md:w-[1000px] lg:w-[1100px] xl:w-[2200px]"
-          />
+          <img src={premium} alt="img" className="w-[400px] md:w-[2200px]" />
         </div>
 
         <div className="">
-          <div className="md:m-12 mt-8 md:mt-0">
+          <div className="md:m-4 lg:m-12 mt-8 md:mt-0">
             <div className="flex items-center my-3">
               <img src={star1} alt="img" className="" />
               <p className="mx-2 text-[18px] font-bold">Fully Customizable</p>
@@ -219,7 +211,6 @@ const Home = () => {
             className=""
             style={{
               backgroundImage: `url(${bg})`,
-              backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
               backgroundSize: "620px",
             }}
@@ -260,61 +251,61 @@ const Home = () => {
           </p>
         </div>
         <div className="text-white p-2 grid xl:grid-cols-2 gap-4 md:p-4 xl:gap-10 xl:px-0">
-          <div className="bg-[#FF5555] p-4 lg:py-8 rounded-2xl">
-            <p className="font-bold text-[22px] lg:text-[30px]">
+          <div className="bg-[#FF5555] p-4 rounded-2xl">
+            <p className="font-bold text-[22px] lg:text-[25px]">
               The Best Financial Accounting App Ever!
             </p>
-            <p className="text-[17px] lg:text-[20px] my-4">
+            <p className="text-[17px] lg:text-[18px] my-4 ">
               “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
               ultricies. In ultrices malesuada elit mauris.
             </p>
           </div>
 
           <div className="text-black p-4 lg:py-8 rounded-2xl">
-            <p className="font-bold text-[22px] lg:text-[30px]">
+            <p className="font-bold text-[22px] lg:text-[25px]">
               The Best Financial Accounting App Ever!
             </p>
-            <p className="text-[17px] lg:text-[20px] my-4">
+            <p className="text-[17px] lg:text-[18px] my-4">
               “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
               ultricies. In ultrices malesuada elit mauris.
             </p>
           </div>
 
           <div className="bg-[#FF5555] xl:bg-white xl:text-black p-4 lg:py-8 rounded-2xl">
-            <p className="font-bold text-[22px] lg:text-[30px]">
+            <p className="font-bold text-[22px] lg:text-[25px]">
               The Best Financial Accounting App Ever!
             </p>
-            <p className="text-[17px] lg:text-[20px] my-4">
+            <p className="text-[17px] lg:text-[18px] my-4">
               “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
               ultricies. In ultrices malesuada elit mauris.
             </p>
           </div>
 
           <div className="text-black p-4 xl:bg-[#FF5555] xl:text-white lg:py-8 rounded-2xl">
-            <p className="font-bold text-[22px] lg:text-[30px]">
+            <p className="font-bold text-[22px] lg:text-[25px]">
               The Best Financial Accounting App Ever!
             </p>
-            <p className="text-[17px] lg:text-[20px] my-4">
+            <p className="text-[17px] lg:text-[18px] my-4">
               “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
               ultricies. In ultrices malesuada elit mauris.
             </p>
           </div>
 
           <div className="bg-[#FF5555] p-4 lg:py-8 rounded-2xl">
-            <p className="font-bold text-[22px] lg:text-[30px]">
+            <p className="font-bold text-[22px] lg:text-[25px]">
               The Best Financial Accounting App Ever!
             </p>
-            <p className="text-[17px] lg:text-[20px] my-4">
+            <p className="text-[17px] lg:text-[18px] my-4">
               “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
               ultricies. In ultrices malesuada elit mauris.
             </p>
           </div>
 
           <div className="text-black p-4 lg:py-8 rounded-2xl">
-            <p className="font-bold text-[22px] lg:text-[30px]">
+            <p className="font-bold text-[22px] lg:text-[25px]">
               The Best Financial Accounting App Ever!
             </p>
-            <p className="text-[17px] lg:text-[20px] my-4">
+            <p className="text-[17px] lg:text-[18px] my-4">
               “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
               ultricies. In ultrices malesuada elit mauris.
             </p>
@@ -327,7 +318,7 @@ const Home = () => {
         <img
           src={frame}
           alt="img"
-          className="w-full h-[220px] md:h-[500px] md:w-full"
+          className="w-full h-[220px] md:h-[390px] lg:h-[550px]"
         />
       </div>
     </div>

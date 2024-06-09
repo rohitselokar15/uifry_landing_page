@@ -3,7 +3,7 @@ import logo from "../assets/Group.png";
 
 const Footer = () => {
   return (
-    <div className="mx-2 container xl:mx-auto max-w-7xl md:my-10 font-semibold text-gray-800 mt-20">
+    <div className="mx-2 container xl:mx-auto max-w-7xl md:my-10 font-semibold text-gray-800 mt-20 xl:mt-28">
       <div className="text-center md:text-start tracking-wide text-[14px] grid gap-3 justify-center md:grid-cols-5">
         <div className="mt-3 ">
           <ul>
