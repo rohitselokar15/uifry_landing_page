@@ -3,8 +3,8 @@ import logo from "../assets/Group.png";
 
 const Footer = () => {
   return (
-    <div className="container xl:mx-auto max-w-7xl my-10 mx-4 font-semibold text-gray-800 mt-20">
-      <div className="text-[14px] grid gap-3 justify-center md:grid-cols-5">
+    <div className="mx-2 container xl:mx-auto max-w-7xl md:my-10 font-semibold text-gray-800 mt-20">
+      <div className="text-center md:text-start tracking-wide text-[14px] grid gap-3 justify-center md:grid-cols-5">
         <div className="mt-3 ">
           <ul>
             <li>
@@ -47,7 +47,9 @@ const Footer = () => {
         </div>
         <div className=" my-3">
           <ul>
-            <li className="text-[20px] text-black xl:text-[25px]">Newsletter</li>
+            <li className="text-[20px] text-black xl:text-[25px]">
+              Newsletter
+            </li>
             <li className="my-2">Stay Up To Date</li>
             <li className="hidden xl:inline">
               <input

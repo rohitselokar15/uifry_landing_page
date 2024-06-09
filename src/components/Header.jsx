@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/Group.png";
+import star_1 from "../assets/star-1.png";
+
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -9,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-white h-[72px] flex justify-between lg:justify-around px-3 xl:px-0 items-center shadow-md sticky top-0 z-50">
+    <nav className="mx-2 container xl:mx-auto max-w-7xl bg-white h-[72px] flex justify-between lg:justify-around px-3 xl:px-0 items-center sticky top-0 z-50">
       <div className="xl:pr-20">
         <p className="cursor-pointer">
           <img src={logo} />
@@ -49,6 +51,7 @@ const Header = () => {
           Download
         </button>
       </div>
+      
     </nav>
   );
 };
